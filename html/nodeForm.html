@@ -1,7 +1,7 @@
 <table>
 	<tr>
 		<td>
-			<label for="firstName" title="Имя персонажа">Имя</label>
+			<label for="firstName" title="Имя персонажа (en)">Имя (en)</label>
 		</td>
 		<td>
 			<input type="text" placeholder="Основное имя персонажа" name="firstName" id="firstName">
@@ -9,7 +9,7 @@
 	</tr>
 	<tr>
 		<td>
-			<label for="secondName" title="Второе имя персонажа (при наличии)">Второе имя (если есть)</label>
+			<label for="secondName" title="Второе имя персонажа (при наличии) (en)">Второе имя (если есть) (en)</label>
 		</td>
 		<td>
 			<input type="text" placeholder="Основное имя персонажа" name="secondName" id="secondName">
@@ -17,26 +17,34 @@
 	</tr>
 	<tr>
 		<td>
-			<label for="familyName" title="Фамилия по отцу">Фамилия по отцу</label>
+			<label for="familyName" title="Фамилия по отцу (en)">Фамилия по отцу (en)</label>
 		</td>
 		<td>
-			<input type="text" placeholder="Фамилия по отцу" name="familyName" id="familyName">
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<label for="maidenName" title="Фамилия по матери">Фамилия по матери</label>
-		</td>
-		<td>
-			<input type="text" placeholder="Фамилия по матери" name="maidenName" id="maidenName">
+			<input type="text" placeholder="Фамилия по отцу" name="familyName" id="familyName" list="sacredTwentyEight">
 		</td>
 	</tr>
 	<tr>
 		<td>
-			<label for="surname" title="Основная фамилия">Основная фамилия</label>
+			<label for="maidenName" title="Фамилия по матери (en)">Фамилия по матери (en)</label>
 		</td>
 		<td>
-			<input type="text" placeholder="Основная фамилия" name="surname" id="surname">
+			<input type="text" placeholder="Фамилия по матери" name="maidenName" id="maidenName" list="sacredTwentyEight">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<label for="surname" title="Основная фамилия (en)">Основная фамилия (en)</label>
+		</td>
+		<td>
+			<input type="text" placeholder="Основная фамилия" name="surname" id="surname" list="sacredTwentyEight">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<label for="fullName" title="Полное имя (со вторым именем при наличии и фамилией) на русском">Полное имя на русском</label>
+		</td>
+		<td>
+			<input type="text" placeholder="Полное имя на русском" name="fullName" id="fullName">
 		</td>
 	</tr>
 	<tr>
@@ -76,7 +84,8 @@
 	</tr>
 	<tr>
 		<td>
-			<label for="description" title="Всё о персонаже, что хочется упомянуть отдельно">Дополнительная информация</label>
+			<label for="description" title="Всё о персонаже</option>
+	<option>что хочется упомянуть отдельно">Дополнительная информация</label>
 		</td>
 		<td>
 			<input type="text" placeholder="Дополнительная информация" name="description" id="description">
@@ -165,3 +174,34 @@
 		</td>
 	</tr>
 </table>
+
+<datalist id="sacredTwentyEight">
+	<option>Abbott</option>
+	<option>Avery</option>
+	<option>Black</option>
+	<option>Bulstrode</option>
+	<option>Burke</option>
+	<option>Carrow</option>
+	<option>Crouch</option>
+	<option>Fawley</option>
+	<option>Flint</option>
+	<option>Gaunt</option>
+	<option>Greengrass</option>
+	<option>Lestrange</option>
+	<option>Longbottom</option>
+	<option>Macmillan</option>
+	<option>Malfoy</option>
+	<option>Nott</option>
+	<option>Ollivander</option>
+	<option>Parkinson</option>
+	<option>Prewett</option>
+	<option>Rosier</option>
+	<option>Rowle</option>
+	<option>Selwyn</option>
+	<option>Shacklebolt</option>
+	<option>Shafiq</option>
+	<option>Slughorn</option>
+	<option>Travers</option>
+	<option>Weasley</option>
+	<option>Yaxley</option>
+</datalist>
