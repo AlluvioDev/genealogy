@@ -1,5 +1,5 @@
 # genealogy
 main page: https://alluviodev.github.io/genealogy/
 
-# быстрый доступ
+# Быстрый доступ
  - Шаблон формы узла: https://alluviodev.github.io/genealogy/html/nodeForm.html
