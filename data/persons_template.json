@@ -5,9 +5,10 @@
 		"familyName": "",
 		"maidenName": "",
 		"surmame": "",
+		"sex": "f / m (f = female, m = male)",
 		"birth": "yyyy-mm-dd",
 		"death": "yyyy-mm-dd",
-		"avatar": "",
+		"avatar": "url",
 		"description": "",
 		"relations": [
 			{
@@ -16,6 +17,15 @@
 				"begin": "yyyy-mm-dd",
 				"end": "yyyy-mm-dd",
 			}
-		]
+		],
+		"canonical": true,
+		"loyality": "n/mm/o/de",
+		"blood": "pb/hb/mb/mg/sq (PB — чистокровный маг, HB — полукровный маг, MB — магглорожденный маг, MG — маггл, SQ — сквиб.)",
+		"isSacredTwentyEight": true,
+		"isBritish": true,
+		"isExist": true,
+		"profileUrl": "link",
+		"isBanished": false
+		
 	}
 ]
