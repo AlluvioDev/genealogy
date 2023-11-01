@@ -1,10 +1,12 @@
 [
 	{
 		"id": 0,
-		"name": "",
+		"firstName": "",
+		"secondName": "",
 		"familyName": "",
 		"maidenName": "",
 		"surmame": "",
+		"fullName": "",
 		"sex": "f / m (f = female, m = male)",
 		"birth": "yyyy-mm-dd",
 		"death": "yyyy-mm-dd",
@@ -18,7 +20,7 @@
 				"end": "yyyy-mm-dd",
 			}
 		],
-		"canonical": true,
+		"isCanonical": true,
 		"loyality": "n/mm/o/de",
 		"blood": "pb/hb/mb/mg/sq (PB — чистокровный маг, HB — полукровный маг, MB — магглорожденный маг, MG — маггл, SQ — сквиб.)",
 		"isSacredTwentyEight": true,
