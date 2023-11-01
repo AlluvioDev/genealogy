@@ -1,99 +1,167 @@
-<div>
-    <div>
-        <label for="firstName" title="Имя персонажа">Имя</label>
-        <input type="text" placeholder="Основное имя персонажа" name="firstName" id="firstName">
-    </div>
-    <div>
-        <label for="secondName" title="Второе имя персонажа (при наличии)">Второе имя (если есть)</label>
-        <input type="text" placeholder="Основное имя персонажа" name="secondName" id="secondName">
-    </div>
-    <div>
-        <label for="familyName" title="Фамилия по отцу">Фамилия по отцу</label>
-        <input type="text" placeholder="Фамилия по отцу" name="familyName" id="familyName">
-    </div>
-    <div>
-        <label for="maidenName" title="Фамилия по матери">Фамилия по матери</label>
-        <input type="text" placeholder="Фамилия по матери" name="maidenName" id="maidenName">
-    </div>
-    <div>
-        <label for="surname" title="Основная фамилия">Основная фамилия</label>
-        <input type="text" placeholder="Основная фамилия" name="surname" id="surname">
-    </div>
-    <div>
-        <label for="sex">Пол</label>
-        <select name="sex" id="sex" required="required" aria-required="true">
-            <option value="f" id="sex-0">Женский</option>
-            <option value="m" id="sex-1">Мужской</option>
-        </select>
-    </div>
-    <div>
-        <label for="birth" title="Дата рождения">Дата рождения</label>
-        <input type="date" name="birth" id="birth">
-    </div>
-    <div>
-        <label for="death" title="Дата смерти (если известна)">Дата смерти (если известна)</label>
-        <input type="date" name="death" id="death">
-    </div>
-    <div>
-        <label for="profileUrl" title="Ссылка на профиль">Персонаж на форуме</label>
-        <input type="text" placeholder="Ссылка на профиль" name="profileUrl" id="profileUrl">
-    </div>
-    <div>
-        <label for="description" title="Всё о персонаже, что хочется упомянуть отдельно">Дополнительная информация</label>
-        <input type="text" placeholder="Дополнительная информация" name="description" id="description">
-    </div>
-    <div>
-        <label for="isCanonical" >Персонаж каноничный?</label>
-        <select name="isCanonical" id="isCanonical" required="required" aria-required="true">
-            <option value="y">Да</option>
-            <option value="n">Нет</option>
-        </select>
-    </div>
-    <div>
-        <label for="isSacredTwentyEight" >Фамилия относится к священным 28?</label>
-        <select name="isSacredTwentyEight" id="isSacredTwentyEight" required="required" aria-required="true">
-            <option value="y">Да</option>
-            <option value="n">Нет</option>
-        </select>
-    </div>
-    <div>
-        <label for="isBritish">Персонаж британец?</label>
-        <select name="isBritish" id="isBritish" required="required" aria-required="true">
-            <option value="y">Да</option>
-            <option value="n">Нет</option>
-        </select>
-    </div>
-    <div>
-        <label for="isExist">Персонаж есть на форуме?</label>
-        <select name="isExist" id="isExist" required="required" aria-required="true">
-            <option value="y">Да</option>
-            <option value="n">Нет</option>
-        </select>
-    </div>
-    <div>
-        <label for="isBanished">Персонаж изгнан из рода?</label>
-        <select name="isBanished" id="isBanished" required="required" aria-required="true">
-            <option value="n">Нет</option>
-            <option value="y">Да</option>
-        </select>
-    </div>
-    <div>
-        <label for="loyality">Лояльность</label>
-        <select name="loyality" id="loyality" required="required" aria-required="true">
-            <option value="n">Нейтралитет</option>
-            <option value="mm">Министерство Магии</option>
-            <option value="o">Орден Феникса</option>
-            <option value="de">Пожиратели Смерти</option>
-        </select>
-    </div>
-    <div>
-        <label for="blood">Кровь</label>
-        <select name="blood" id="blood" required="required" aria-required="true">
-            <option value="pb">Чистокровный</option>
-            <option value="hb">Полукровка</option>
-            <option value="mb">Магглорожденный</option>
-            <option value="mg">Маггл</option>
-            <option value="sq">Сквиб</option>
-        </select>
-    </div>
-</div>
+<table>
+	<tr>
+		<td>
+			<label for="firstName" title="Имя персонажа">Имя</label>
+		</td>
+		<td>
+			<input type="text" placeholder="Основное имя персонажа" name="firstName" id="firstName">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<label for="secondName" title="Второе имя персонажа (при наличии)">Второе имя (если есть)</label>
+		</td>
+		<td>
+			<input type="text" placeholder="Основное имя персонажа" name="secondName" id="secondName">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<label for="familyName" title="Фамилия по отцу">Фамилия по отцу</label>
+		</td>
+		<td>
+			<input type="text" placeholder="Фамилия по отцу" name="familyName" id="familyName">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<label for="maidenName" title="Фамилия по матери">Фамилия по матери</label>
+		</td>
+		<td>
+			<input type="text" placeholder="Фамилия по матери" name="maidenName" id="maidenName">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<label for="surname" title="Основная фамилия">Основная фамилия</label>
+		</td>
+		<td>
+			<input type="text" placeholder="Основная фамилия" name="surname" id="surname">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<label for="sex">Пол</label>
+		</td>
+		<td>
+			<select name="sex" id="sex" required="required" aria-required="true">
+				<option value="f" id="sex-0">Женский</option>
+				<option value="m" id="sex-1">Мужской</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<label for="birth" title="Дата рождения">Дата рождения</label>
+		</td>
+		<td>
+			<input type="date" name="birth" id="birth">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<label for="death" title="Дата смерти (если известна)">Дата смерти (если известна)</label>
+		</td>
+		<td>
+			<input type="date" name="death" id="death">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<label for="profileUrl" title="Ссылка на профиль">Персонаж на форуме</label>
+		</td>
+		<td>
+			<input type="text" placeholder="Ссылка на профиль" name="profileUrl" id="profileUrl">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<label for="description" title="Всё о персонаже, что хочется упомянуть отдельно">Дополнительная информация</label>
+		</td>
+		<td>
+			<input type="text" placeholder="Дополнительная информация" name="description" id="description">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<label for="isCanonical" >Персонаж каноничный?</label>
+		</td>
+		<td>
+			<select name="isCanonical" id="isCanonical" required="required" aria-required="true">
+				<option value="y">Да</option>
+				<option value="n">Нет</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<label for="isSacredTwentyEight" >Фамилия относится к священным 28?</label>
+		</td>
+		<td>
+			<select name="isSacredTwentyEight" id="isSacredTwentyEight" required="required" aria-required="true">
+				<option value="y">Да</option>
+				<option value="n">Нет</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<label for="isBritish">Персонаж британец?</label>
+		</td>
+		<td>
+			<select name="isBritish" id="isBritish" required="required" aria-required="true">
+				<option value="y">Да</option>
+				<option value="n">Нет</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<label for="isExist">Персонаж есть на форуме?</label>
+		</td>
+		<td>
+			<select name="isExist" id="isExist" required="required" aria-required="true">
+				<option value="y">Да</option>
+				<option value="n">Нет</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<label for="isBanished">Персонаж изгнан из рода?</label>
+		</td>
+		<td>
+			<select name="isBanished" id="isBanished" required="required" aria-required="true">
+				<option value="n">Нет</option>
+				<option value="y">Да</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<label for="loyality">Лояльность</label>
+		</td>
+		<td>
+			<select name="loyality" id="loyality" required="required" aria-required="true">
+				<option value="n">Нейтралитет</option>
+				<option value="mm">Министерство Магии</option>
+				<option value="o">Орден Феникса</option>
+				<option value="de">Пожиратели Смерти</option>
+		</select>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<label for="blood">Кровь</label>
+		</td>
+		<td>
+			<select name="blood" id="blood" required="required" aria-required="true">
+				<option value="pb">Чистокровный</option>
+				<option value="hb">Полукровка</option>
+				<option value="mb">Магглорожденный</option>
+				<option value="mg">Маггл</option>
+				<option value="sq">Сквиб</option>
+			</select>
+		</td>
+	</tr>
+</table>
