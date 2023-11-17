@@ -2,120 +2,160 @@
 	{
 		"id": 1,
 		"sex": "m",
+		"firstName": "Имя",
+		"secondName": "Фамилия",
 		"mother": 2,
 		"father": 3
 	},
 	{
 		"id": 2,
 		"sex": "m",
+		"firstName": "Имя",
+		"secondName": "Фамилия",
 		"mother": 12,
 		"father": 13
 	},
 	{
 		"id": 3,
 		"sex": "f",
+		"firstName": "Имя",
+		"secondName": "Фамилия",
 		"mother": 14,
 		"father": 15
 	},
 	{
 		"id": 4,
 		"sex": "m",
+		"firstName": "Имя",
+		"secondName": "Фамилия",
 		"mother": 2,
 		"father": 3
 	},
 	{
 		"id": 5,
 		"sex": "m",
+		"firstName": "Имя",
+		"secondName": "Фамилия",
 		"mother": 0,
 		"father": 2
 	},
 	{
 		"id": 6,
 		"sex": "m",
+		"firstName": "Имя",
+		"secondName": "Фамилия",
 		"mother": 0,
 		"father": 2
 	},
 	{
 		"id": 7,
 		"sex": "f",
+		"firstName": "Имя",
+		"secondName": "Фамилия",
 		"mother": 0,
 		"father": 0
 	},
 	{
 		"id": 8,
 		"sex": "m",
+		"firstName": "Имя",
+		"secondName": "Фамилия",
 		"mother": 3,
 		"father": 0
 	},
 	{
 		"id": 9,
 		"sex": "f",
+		"firstName": "Имя",
+		"secondName": "Фамилия",
 		"mother": 7,
 		"father": 1
 	},
 	{
 		"id": 10,
 		"sex": "m",
+		"firstName": "Имя",
+		"secondName": "Фамилия",
 		"mother": 7,
 		"father": 1
 	},
 	{
 		"id": 11,
 		"sex": "m",
+		"firstName": "Имя",
+		"secondName": "Фамилия",
 		"mother": 7,
 		"father": 1
 	},
 	{
 		"id": 12,
 		"sex": "m",
+		"firstName": "Имя",
+		"secondName": "Фамилия",
 		"mother": 0,
 		"father": 0
 	},
 	{
 		"id": 13,
 		"sex": "f",
+		"firstName": "Имя",
+		"secondName": "Фамилия",
 		"mother": 0,
 		"father": 0
 	},
 	{
 		"id": 14,
 		"sex": "m",
+		"firstName": "Имя",
+		"secondName": "Фамилия",
 		"mother": 19,
 		"father": 18
 	},
 	{
 		"id": 15,
 		"sex": "f",
+		"firstName": "Имя",
+		"secondName": "Фамилия",
 		"mother": 0,
 		"father": 0
 	},
 	{
 		"id": 16,
 		"sex": "m",
+		"firstName": "Имя",
+		"secondName": "Фамилия",
 		"mother": 15,
 		"father": 11
 	},
 	{
 		"id": 17,
 		"sex": "m",
+		"firstName": "Имя",
+		"secondName": "Фамилия",
 		"mother": 15,
 		"father": 14
 	},
 	{
 		"id": 18,
 		"sex": "m",
+		"firstName": "Имя",
+		"secondName": "Фамилия",
 		"mother": 0,
 		"father": 0
 	},
 	{
 		"id": 19,
 		"sex": "f",
+		"firstName": "Имя",
+		"secondName": "Фамилия",
 		"mother": 0,
 		"father": 0
 	},
 	{
 		"id": 20,
 		"sex": "m",
+		"firstName": "Имя",
+		"secondName": "Фамилия",
 		"mother": 9,
 		"father": 0
 	}
