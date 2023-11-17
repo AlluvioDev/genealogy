@@ -12,6 +12,13 @@ const cellsInRow = nodesInRow * 2 - 1;
 const cellsInColumn = nodesInColumn * 2 - 1;
 const cellSize = 30;
 
+var scale = 1,
+	panning = false,
+	pointX = 0,
+	pointY = 0,
+	start = { x: 0, y: 0 },
+	zoom = document.getElementById("zoom");
+
 async function loadPersons() {
 	const response = await fetch(personsSrc);
 	persons = await response.json();
@@ -81,6 +88,10 @@ function drawTable() {
     }
   }
   myTableDiv.appendChild(table);
+	let cellWidth = getComputedStyle(document.documentElement).getPropertyValue('--cell-width').slice(0,-2);
+	let cellHeight = getComputedStyle(document.documentElement).getPropertyValue('--cell-size').slice(0,-2);
+	zoom.style.width= (cellWidth*cellsInRow + 100) + "px";
+	zoom.style.height= (cellHeight*cellsInColumn + 100) + "px";
 }
 drawTable();
 
@@ -243,13 +254,6 @@ function drawPersonInCell(row_id, col_id, person_id) {
 	drawInCell(row_id, col_id, personCell);
 	return;
 }
-
-var scale = 1,
-	panning = false,
-	pointX = 0,
-	pointY = 0,
-	start = { x: 0, y: 0 },
-	zoom = document.getElementById("zoom");
 
 function setTransform() {
 	zoom.style.transform = "translate(" + pointX + "px, " + pointY + "px) scale(" + scale + ")";
