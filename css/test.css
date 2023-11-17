@@ -1,0 +1,44 @@
+:root {
+  --cell-size: 40px;
+  --cell-width: 100px;
+  --cell-size-half: calc(var(--cell-size)/2);
+}
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  overflow: hidden;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#zoom {
+  width: 100%;
+  height: 100%;
+  transform-origin: 0px 0px;
+  transform: scale(1) translate(0px, 0px);
+  cursor: grab;
+}
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid #808080;
+}
+
+td,
+.cell {
+  min-width: var(--cell-width);
+  width: var(--cell-width);
+  max-width: var(--cell-width);
+  min-height: var(--cell-size);
+  height: var(--cell-size);
+  max-height: var(--cell-size);
+  vertical-align: middle;
+  text-align: center;
+}
