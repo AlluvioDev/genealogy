@@ -1,0 +1,122 @@
+[
+	{
+		"id": 1,
+		"sex": "m",
+		"mother": 2,
+		"father": 3
+	},
+	{
+		"id": 2,
+		"sex": "m",
+		"mother": 12,
+		"father": 13
+	},
+	{
+		"id": 3,
+		"sex": "f",
+		"mother": 14,
+		"father": 15
+	},
+	{
+		"id": 4,
+		"sex": "m",
+		"mother": 2,
+		"father": 3
+	},
+	{
+		"id": 5,
+		"sex": "m",
+		"mother": 0,
+		"father": 2
+	},
+	{
+		"id": 6,
+		"sex": "m",
+		"mother": 0,
+		"father": 2
+	},
+	{
+		"id": 7,
+		"sex": "f",
+		"mother": 0,
+		"father": 0
+	},
+	{
+		"id": 8,
+		"sex": "m",
+		"mother": 3,
+		"father": 0
+	},
+	{
+		"id": 9,
+		"sex": "f",
+		"mother": 7,
+		"father": 1
+	},
+	{
+		"id": 10,
+		"sex": "m",
+		"mother": 7,
+		"father": 1
+	},
+	{
+		"id": 11,
+		"sex": "m",
+		"mother": 7,
+		"father": 1
+	},
+	{
+		"id": 12,
+		"sex": "m",
+		"mother": 0,
+		"father": 0
+	},
+	{
+		"id": 13,
+		"sex": "f",
+		"mother": 0,
+		"father": 0
+	},
+	{
+		"id": 14,
+		"sex": "m",
+		"mother": 19,
+		"father": 18
+	},
+	{
+		"id": 15,
+		"sex": "f",
+		"mother": 0,
+		"father": 0
+	},
+	{
+		"id": 16,
+		"sex": "m",
+		"mother": 15,
+		"father": 11
+	},
+	{
+		"id": 17,
+		"sex": "m",
+		"mother": 15,
+		"father": 14
+	},
+	{
+		"id": 18,
+		"sex": "m",
+		"mother": 0,
+		"father": 0
+	},
+	{
+		"id": 19,
+		"sex": "f",
+		"mother": 0,
+		"father": 0
+	},
+	{
+		"id": 20,
+		"sex": "m",
+		"mother": 9,
+		"father": 0
+	}
+]
