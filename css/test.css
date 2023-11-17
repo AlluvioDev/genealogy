@@ -2,6 +2,10 @@
   --cell-size: 40px;
   --cell-width: 100px;
   --cell-size-half: calc(var(--cell-size)/2);
+  --node-height: 60px;
+  --node-width: 120px;
+  --node-margin-top: calc(-1*var(--node-height)/2);
+  --node-margin-left: calc(var(--cell-width) - var(--node-width));
 }
 * {
   padding: 0;
@@ -39,4 +43,22 @@ td,
   max-height: var(--cell-size);
   vertical-align: middle;
   text-align: center;
+}
+
+.f {
+    background: #bf597e80;
+}
+.m {
+    background: #6b7eb380;
+}
+.node{
+    display: flex;
+    width: var(--node-width);
+    height: var(--node-height);
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: var(--node-margin-top);
+    margin-left: var(--node-margin-left);
+    border-radius: 4px;
 }
