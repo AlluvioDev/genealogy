@@ -5,7 +5,7 @@
   --node-height: 60px;
   --node-width: 120px;
   --node-margin-top: calc(-1*var(--node-height)/2);
-  --node-margin-left: calc(var(--cell-width) - var(--node-width));
+  --node-margin-left: calc((var(--cell-width) - var(--node-width)/2));
 }
 * {
   padding: 0;
