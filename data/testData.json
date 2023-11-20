@@ -4,32 +4,32 @@
 		"sex": "m",
 		"firstName": "Имя",
 		"secondName": "Фамилия",
-		"mother": 2,
-		"father": 3
+		"mother": 3,
+		"father": 2
 	},
 	{
 		"id": 2,
 		"sex": "m",
 		"firstName": "Имя",
 		"secondName": "Фамилия",
-		"mother": 12,
-		"father": 13
+		"mother": 13,
+		"father": 12
 	},
 	{
 		"id": 3,
 		"sex": "f",
 		"firstName": "Имя",
 		"secondName": "Фамилия",
-		"mother": 14,
-		"father": 15
+		"mother": 15,
+		"father": 14
 	},
 	{
 		"id": 4,
 		"sex": "m",
 		"firstName": "Имя",
 		"secondName": "Фамилия",
-		"mother": 2,
-		"father": 3
+		"mother": 3,
+		"father": 2
 	},
 	{
 		"id": 5,
