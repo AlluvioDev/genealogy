@@ -51,6 +51,9 @@ td,
 .m {
     background: #6b7eb380;
 }
+.u {
+    background: #80808080;
+}
 .node{
     display: flex;
     width: var(--node-width);
